@@ -4,13 +4,12 @@
 }
 
 .intro{
-    text-align: center;
     color: white;
     font-size: 30px;
     font-family: sans-serif;
     position: absolute;
     top: 30px;
-    left: 350px;
+    left: 680px;
     z-index: 2;
 }
 
@@ -27,4 +26,11 @@
    z-index: 1;
    height: 755px;
    position: relative;
+}
+
+form{
+    background-color: black;
+    z-index: 3;
+    margin: 0;
+    padding: 0;
 }
