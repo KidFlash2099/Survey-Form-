@@ -4,25 +4,76 @@
 }
 
 body{
-    background-image: url('image/code(2).jpg');
-    height: 755px;
-    padding: 0;
-    margin: 0;
-}
-
-.color-overlay{
-   background-color: red; 
-   opacity: 0.3;
-   height: 755px;
-   position: relative;
-}
-
-header{
-    color: white;
-    text-align: center;
-    font-size: 30px;
+    text-align:center;
     font-family: sans-serif;
-    position: absolute;
-    top: 30px;
-    left: 680px;
+}
+
+#title{
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+#description{
+    font-size: 20px;
+}
+
+#body{
+    width:600px;
+    padding:30px;
+    margin: auto;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+
+#name{
+    width: 560px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#Email{
+    width: 560px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#number{
+    width: 560px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#dropdown{
+    width: 560px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+#comment{
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+#submit{
+    width: 590px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 24px;
+    color: white; 
+    background-color: lightgreen;
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
